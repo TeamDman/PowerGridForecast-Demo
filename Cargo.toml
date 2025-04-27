@@ -1,0 +1,16 @@
+[package]
+name = "PowerGridForecast-Demo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+windows = { version = "0.61.1", features = [
+    "Devices_Power",
+    "Foundation",
+    "Foundation_Collections",
+    "Globalization",
+    "Globalization_DateTimeFormatting",
+    "Globalization_NumberFormatting",
+    "System",
+    "Win32_System_Com"
+]}
